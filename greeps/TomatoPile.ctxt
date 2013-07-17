@@ -1,0 +1,17 @@
+#BlueJ class context
+comment0.params=tomatoes
+comment0.target=TomatoPile(int)
+comment0.text=\r\n\ Create\ a\ pile\ of\ a\ given\ number\ of\ tomatoes.\r\n
+comment1.params=
+comment1.target=void\ takeOne()
+comment1.text=\r\n\ Remove\ a\ tomato\ from\ this\ pile.\ (If\ it\ was\ the\ last\ one,\ this\ pile\ will\r\n\ disappear\ from\ the\ world.)\r\n
+comment2.params=
+comment2.target=void\ updateImage()
+comment2.text=\r\n\ Update\ the\ image\ to\ show\ the\ current\ number\ of\ tomatoes.\r\n
+comment3.params=image\ x\ y
+comment3.target=void\ drawTomato(greenfoot.GreenfootImage,\ int,\ int)
+comment3.text=\r\n\ Draw\ a\ single\ tomato\ onthe\ the\ given\ image\ at\ the\ position\ specified.\r\n
+comment4.params=
+comment4.target=int\ randomCoord()
+comment4.text=\r\n\ Generate\ a\ random\ number\ relative\ to\ the\ size\ of\ the\ food\ pile.\r\n
+numComments=5
