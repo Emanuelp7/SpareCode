@@ -60,12 +60,7 @@ public class Greep extends Creature
         TomatoPile tomatoes = (TomatoPile) getOneIntersectingObject(TomatoPile.class);
         if(tomatoes != null) {
             loadTomato();
-           // if(!seePaint("red")){
-           // setFlag(2,true);
-         //   spit("red");
-          //  }
-          //  spit("red");
-            //setFlag(1,false);
+         
         }
         return tomatoes != null;//setFlag(1,tomatoes != null);
     }
@@ -126,7 +121,7 @@ public class Greep extends Creature
             else{
                 move();
                 turn(180);
-                //spit("red");
+           
             }
         }
     }
